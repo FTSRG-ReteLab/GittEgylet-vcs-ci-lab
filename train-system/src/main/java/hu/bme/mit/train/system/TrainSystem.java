@@ -25,4 +25,7 @@ public class TrainSystem {
 		return user;
 	}
 
+	// Generated build error
+    asd
+
 }
