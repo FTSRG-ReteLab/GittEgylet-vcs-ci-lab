@@ -15,7 +15,7 @@ public class TrainControllerImpl implements TrainController {
 	public TrainControllerImpl() {
 		MyTimerTask timertask = new MyTimerTask();
 		Timer timer = new Timer();
-		timer.schedule(timertask, 0, 100)
+		timer.schedule(timertask, 0, 100); // Added ";"
 	}
 	
 	@Override
