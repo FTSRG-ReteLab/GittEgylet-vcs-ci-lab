@@ -57,7 +57,7 @@ public class TrainControllerImpl implements TrainController {
 	public class MyTimerTask extends TimerTask {
 		@Override
 		public void run() {
-			this.followSpeed();
+			followSpeed();
 		}
 	}
 }
